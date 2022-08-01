@@ -23,7 +23,7 @@ public class CustomerManager implements CustomerService{
 		
 		checkPersonExists(customer);
 		
-		this.customerDao.customerExists(customer);
+		//this.customerDao.customerExists(customer);
 		this.customerDao.add(customer);
 
 	}

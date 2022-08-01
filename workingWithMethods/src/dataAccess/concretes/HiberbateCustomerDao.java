@@ -12,8 +12,14 @@ public class HiberbateCustomerDao implements CustomerDao{
 
 	@Override
 	public boolean customerExists(Customer customer) {
-		
+	
 		return true;
+	}
+
+	@Override
+	public void update(Customer customer) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }

@@ -14,5 +14,11 @@ public class JdbcCustomerDao implements CustomerDao{
 		// TODO Auto-generated method stub
 		return true;
 	}
+
+	@Override
+	public void update(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
